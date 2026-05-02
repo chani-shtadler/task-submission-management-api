@@ -1,0 +1,32 @@
+[{
+  "_id": "123456789",
+  "name": "המורה שרה",
+  "email": "teacher@school.com",
+  "password": "Password123",
+  "role": "teacher",
+  "__v": 0
+},
+{
+  "_id": "987654321",
+  "name": "חני הסטודנטית",
+  "email": "chani@student.com",
+  "password": "Password456",
+  "role": "student",
+  "__v": 0
+},
+{
+  "_id": "111222333",
+  "name": "דיתי המורה",
+  "email": "teacher2@test.com",
+  "password": "Password111",
+  "role": "teacher",
+  "__v": 0
+},
+{
+  "_id": "999888777",
+  "name": "חגית הסטודנטית",
+  "email": "chagit@student.com",
+  "password": "Password698",
+  "role": "student",
+  "__v": 0
+}]

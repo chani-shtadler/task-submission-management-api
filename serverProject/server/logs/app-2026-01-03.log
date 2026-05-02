@@ -1,0 +1,534 @@
+[04/01/2026 00:49:59] INFO👍: {POST} /auth/login
+[04/01/2026 00:49:59] DEBUG👍: the request return with status code: 200
+[04/01/2026 00:49:59] WARN👍: Authentication failed for user undefined: Invalid ID or password
+[04/01/2026 00:52:57] INFO👍: {POST} /auth/login
+[04/01/2026 00:52:57] DEBUG👍: the request return with status code: 200
+[04/01/2026 00:52:57] WARN👍: Authentication failed for user undefined: Invalid ID or password
+[04/01/2026 00:54:38] INFO👍: {POST} /auth/login
+[04/01/2026 00:54:38] DEBUG👍: the request return with status code: 200
+[04/01/2026 00:54:38] WARN👍: Authentication failed for user undefined: Invalid ID or password
+[04/01/2026 01:22:03] INFO👍: {POST} /auth/login
+[04/01/2026 01:22:03] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:22:03] WARN👍: Authentication failed for user undefined: Invalid ID or password
+[04/01/2026 01:47:35] INFO👍: {POST} /auth/register
+[04/01/2026 01:47:35] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:47:48] INFO👍: {POST} /auth/login
+[04/01/2026 01:47:48] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:47:48] INFO👍: User 123456789 logged in successfully with role: teacher
+[04/01/2026 01:48:25] INFO👍: {POST} /auth/login
+[04/01/2026 01:48:25] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:48:25] INFO👍: User 123456789 logged in successfully with role: teacher
+[04/01/2026 01:48:52] INFO👍: {POST} /auth/register
+[04/01/2026 01:48:52] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:48:59] INFO👍: {POST} /auth/login
+[04/01/2026 01:48:59] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:48:59] WARN👍: Authentication failed for user 999888777: Invalid ID or password
+[04/01/2026 01:49:11] INFO👍: {POST} /auth/register
+[04/01/2026 01:49:11] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:49:16] INFO👍: {POST} /auth/register
+[04/01/2026 01:49:16] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:49:16] ERROR!: Error creating user: MongoServerError: E11000 duplicate key error collection: Sari_Bulvin_And_Chani_Shtadler_DB.users index: password_1 dup key: { password: "Password123" }
+[04/01/2026 01:49:16] ERROR!: Error registering user: MongoServerError: E11000 duplicate key error collection: Sari_Bulvin_And_Chani_Shtadler_DB.users index: password_1 dup key: { password: "Password123" }
+[04/01/2026 01:49:46] INFO👍: {POST} /auth/register
+[04/01/2026 01:49:46] DEBUG👍: the request return with status code: 200
+[04/01/2026 01:49:46] INFO👍: User created with username: New User
+[04/01/2026 01:49:46] INFO👍: User id977191 registered successfully
+[04/01/2026 02:24:15] INFO👍: {POST} /auth/login
+[04/01/2026 02:24:15] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:24:15] INFO👍: User 123456789 logged in successfully with role: teacher
+[04/01/2026 02:25:06] INFO👍: {POST} /auth/login
+[04/01/2026 02:25:06] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:25:06] INFO👍: User 123456789 logged in successfully with role: teacher
+[04/01/2026 02:25:18] INFO👍: {POST} /auth/login
+[04/01/2026 02:25:18] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:25:18] WARN👍: Authentication failed for user : Invalid ID or password
+[04/01/2026 02:25:23] INFO👍: {POST} /auth/login
+[04/01/2026 02:25:23] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:25:23] WARN👍: Authentication failed for user : Invalid ID or password
+[04/01/2026 02:27:59] INFO👍: {POST} /auth/login
+[04/01/2026 02:27:59] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:27:59] INFO👍: User 123456789 logged in successfully with role: teacher
+[04/01/2026 02:28:26] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[04/01/2026 02:28:26] INFO👍: Token verified for user ID: 123456789
+[04/01/2026 02:28:26] DEBUG👍: the user is: undefined
+[04/01/2026 02:28:26] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-101
+[04/01/2026 02:28:26] INFO👍: Fetching submissions for: ASSIGN-101 with populate
+[04/01/2026 02:28:26] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:49:29] INFO👍: {POST} /auth/register
+[04/01/2026 02:49:29] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:49:29] INFO👍: User created with username: חנה
+[04/01/2026 02:49:29] INFO👍: User 330650052 registered successfully
+[04/01/2026 02:49:44] INFO👍: {POST} /auth/login
+[04/01/2026 02:49:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:49:44] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 02:50:58] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[04/01/2026 02:50:58] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 02:50:58] DEBUG👍: the user is: undefined
+[04/01/2026 02:50:58] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-101
+[04/01/2026 02:50:58] INFO👍: Fetching submissions for: ASSIGN-101 with populate
+[04/01/2026 02:50:58] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:51:37] INFO👍: {POST} /auth/login
+[04/01/2026 02:51:37] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:51:37] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 02:52:47] INFO👍: {POST} /student/submissions
+[04/01/2026 02:52:47] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 02:52:47] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:52:47] INFO👍: New submission added for assignment ASSIGN-101 by student 987654321
+[04/01/2026 02:53:03] INFO👍: {POST} /auth/login
+[04/01/2026 02:53:03] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:53:03] WARN👍: Authentication failed for user 330650052: Invalid ID or password
+[04/01/2026 02:53:29] INFO👍: {POST} /auth/login
+[04/01/2026 02:53:29] DEBUG👍: the request return with status code: 200
+[04/01/2026 02:53:29] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 02:53:35] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[04/01/2026 02:53:35] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 02:53:35] DEBUG👍: the user is: undefined
+[04/01/2026 02:53:35] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-101
+[04/01/2026 02:53:35] INFO👍: Fetching submissions for: ASSIGN-101 with populate
+[04/01/2026 02:53:35] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:04:17] INFO👍: {POST} /auth/login
+[04/01/2026 03:04:17] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:04:17] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:07:23] INFO👍: {POST} /teacher/assignments
+[04/01/2026 03:07:23] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:07:23] DEBUG👍: the user is: undefined
+[04/01/2026 03:07:23] DEBUG👍: the user is: 330650052
+[04/01/2026 03:07:23] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:07:23] INFO👍: Assignment created: ASSIGN-102
+[04/01/2026 03:07:57] INFO👍: {PUT} /teacher/submissions/987654321/ASSIGN-101
+[04/01/2026 03:07:57] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:07:57] DEBUG👍: the user is: undefined
+[04/01/2026 03:07:57] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:07:57] INFO👍: Grading and feedback updated for student ID: 987654321 and assignment ID: ASSIGN-101
+[04/01/2026 03:08:07] INFO👍: {GET} /teacher/stats/averages
+[04/01/2026 03:08:07] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:08:07] DEBUG👍: the user is: undefined
+[04/01/2026 03:08:07] DEBUG👍: the request return with status code: 500
+[04/01/2026 03:08:44] INFO👍: {POST} /auth/login
+[04/01/2026 03:08:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:08:44] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:08:44] INFO👍: {GET} /student/assignment
+[04/01/2026 03:08:44] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:08:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:08:44] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:08:44] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:08:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:08:44] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:08:44] INFO👍: {GET} /student/assignment
+[04/01/2026 03:08:44] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:08:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:08:44] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:08:44] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:08:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:08:44] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:09:05] INFO👍: {POST} /student/submissions
+[04/01/2026 03:09:05] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:09:05] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:09:05] INFO👍: New submission added for assignment AASIGN-102 by student 987654321
+[04/01/2026 03:09:07] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:09:07] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:09:07] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:09:07] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:09:38] INFO👍: {POST} /student/submissions
+[04/01/2026 03:09:38] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:09:38] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:09:38] INFO👍: New submission added for assignment ASSIGN-102 by student 987654321
+[04/01/2026 03:09:43] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:09:43] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:09:43] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:09:43] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:10:06] INFO👍: {POST} /auth/login
+[04/01/2026 03:10:06] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:10:06] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:10:32] INFO👍: {GET} /teacher/submissions/ASSIGN-102
+[04/01/2026 03:10:32] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:10:32] DEBUG👍: the user is: undefined
+[04/01/2026 03:10:32] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-102
+[04/01/2026 03:10:32] INFO👍: Fetching submissions for: ASSIGN-102 with populate
+[04/01/2026 03:10:32] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:11:18] INFO👍: {PUT} /teacher/submissions/987654321/ASSIGN-102
+[04/01/2026 03:11:18] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:11:19] DEBUG👍: the user is: undefined
+[04/01/2026 03:11:19] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:11:19] INFO👍: Grading and feedback updated for student ID: 987654321 and assignment ID: ASSIGN-102
+[04/01/2026 03:11:20] INFO👍: {GET} /teacher/submissions/ASSIGN-102
+[04/01/2026 03:11:20] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:11:20] DEBUG👍: the user is: undefined
+[04/01/2026 03:11:20] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-102
+[04/01/2026 03:11:20] INFO👍: Fetching submissions for: ASSIGN-102 with populate
+[04/01/2026 03:11:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:11:27] INFO👍: {GET} /teacher/stats/averages
+[04/01/2026 03:11:27] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:11:27] DEBUG👍: the user is: undefined
+[04/01/2026 03:11:27] DEBUG👍: the request return with status code: 500
+[04/01/2026 03:11:53] INFO👍: {POST} /auth/login
+[04/01/2026 03:11:53] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:11:53] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:12:13] INFO👍: {GET} /teacher/submissions/ASSIGN-102
+[04/01/2026 03:12:13] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:12:13] DEBUG👍: the user is: undefined
+[04/01/2026 03:12:13] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-102
+[04/01/2026 03:12:13] INFO👍: Fetching submissions for: ASSIGN-102 with populate
+[04/01/2026 03:12:13] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:12:29] INFO👍: {GET} /teacher/stats/averages
+[04/01/2026 03:12:29] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:12:29] DEBUG👍: the user is: undefined
+[04/01/2026 03:12:29] DEBUG👍: the request return with status code: 500
+[04/01/2026 03:13:22] INFO👍: {POST} /auth/login
+[04/01/2026 03:13:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:13:22] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:13:22] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:13:22] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:13:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:13:22] INFO👍: {GET} /student/assignment
+[04/01/2026 03:13:22] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:13:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:13:22] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:13:22] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:13:22] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:13:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:13:22] INFO👍: {GET} /student/assignment
+[04/01/2026 03:13:22] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:13:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:13:22] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:14:06] INFO👍: {POST} /student/submissions
+[04/01/2026 03:14:06] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:14:06] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:14:06] INFO👍: New submission added for assignment ASSIGN-101 by student 987654321
+[04/01/2026 03:14:08] INFO👍: {GET} /student/submissions/me
+[04/01/2026 03:14:08] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:14:08] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:14:08] INFO👍: Found 0 submissions for student me
+[04/01/2026 03:18:14] INFO👍: {GET} /student/assignment
+[04/01/2026 03:18:14] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:14] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:14] INFO👍: {GET} /student/submissions/null
+[04/01/2026 03:18:14] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:14] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:14] INFO👍: {GET} /student/assignment
+[04/01/2026 03:18:14] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:14] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:14] INFO👍: Found 0 submissions for student null
+[04/01/2026 03:18:14] INFO👍: {GET} /student/submissions/null
+[04/01/2026 03:18:14] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:14] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:14] INFO👍: Found 0 submissions for student null
+[04/01/2026 03:18:40] INFO👍: {POST} /auth/login
+[04/01/2026 03:18:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:40] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:18:40] INFO👍: {GET} /student/assignment
+[04/01/2026 03:18:40] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:40] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:40] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:40] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:40] INFO👍: {GET} /student/assignment
+[04/01/2026 03:18:40] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:40] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:40] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:40] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:50] INFO👍: {POST} /student/submissions
+[04/01/2026 03:18:50] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:50] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:50] INFO👍: New submission added for assignment ASSIGN-102 by student 987654321
+[04/01/2026 03:18:53] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:53] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:53] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:53] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:56] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:56] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:56] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:56] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:57] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:57] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:57] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:57] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:58] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:58] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:58] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:58] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:59] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:59] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:59] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:59] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:18:59] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:18:59] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:18:59] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:18:59] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:19:17] INFO👍: {POST} /auth/login
+[04/01/2026 03:19:17] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:19:17] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:19:28] INFO👍: {GET} /teacher/submissions/ASSIGN-102
+[04/01/2026 03:19:28] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:19:28] DEBUG👍: the user is: undefined
+[04/01/2026 03:19:28] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-102
+[04/01/2026 03:19:28] INFO👍: Fetching submissions for: ASSIGN-102 with populate
+[04/01/2026 03:19:28] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:19:39] INFO👍: {POST} /teacher/stats/averages
+[04/01/2026 03:19:39] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:19:39] DEBUG👍: the user is: undefined
+[04/01/2026 03:19:39] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:22:53] INFO👍: {POST} /auth/login
+[04/01/2026 03:22:53] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:22:53] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:22:59] INFO👍: {GET} /teacher/stats/averages
+[04/01/2026 03:22:59] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:22:59] DEBUG👍: the user is: undefined
+[04/01/2026 03:22:59] DEBUG👍: the request return with status code: 500
+[04/01/2026 03:23:20] INFO👍: {POST} /auth/login
+[04/01/2026 03:23:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:20] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:23:20] INFO👍: {GET} /student/assignment
+[04/01/2026 03:23:20] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:20] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:23:20] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:20] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:23:20] INFO👍: {GET} /student/assignment
+[04/01/2026 03:23:20] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:20] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:23:20] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:20] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:23:23] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:23:23] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:23] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:23] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:23:24] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:23:24] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:24] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:24] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:23:36] INFO👍: {POST} /student/submissions
+[04/01/2026 03:23:36] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:36] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:36] INFO👍: New submission added for assignment ASSIGN-102 by student 987654321
+[04/01/2026 03:23:38] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:23:38] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:38] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:38] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:23:40] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:23:40] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:23:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:23:40] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:26:27] INFO👍: {GET} /student/assignment
+[04/01/2026 03:26:27] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:26:27] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:26:27] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:26:27] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:26:27] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:26:27] INFO👍: {GET} /student/assignment
+[04/01/2026 03:26:27] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:26:27] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:26:27] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:26:27] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:26:27] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:26:27] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:26:27] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:27:22] INFO👍: {POST} /student/submissions
+[04/01/2026 03:27:22] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:27:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:27:22] INFO👍: New submission added for assignment ASSIGN-102 by student 987654321
+[04/01/2026 03:27:23] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:27:23] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:27:23] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:27:23] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:27:30] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:27:30] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:27:30] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:27:30] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:27:31] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:27:31] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:27:31] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:27:31] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:27:31] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:27:31] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:27:31] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:27:31] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:27:59] INFO👍: {POST} /auth/login
+[04/01/2026 03:27:59] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:27:59] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:28:11] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:11] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:11] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:11] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:11] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:11] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:14] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:14] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:14] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:14] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:14] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:14] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:14] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:14] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:14] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:14] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:14] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:14] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:15] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:15] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:15] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:15] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:15] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:15] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:15] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:15] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:15] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:15] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:15] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:15] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:17] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:17] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:17] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:17] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:17] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:17] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:18] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:18] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:18] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:18] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:18] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:18] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:19] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:19] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:19] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:19] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:19] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:19] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:20] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:20] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:20] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:20] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:20] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:20] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:20] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:20] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:20] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:20] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:20] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:21] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:21] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:21] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:21] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:21] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:21] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:21] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:21] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:21] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:21] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:21] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:21] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:22] INFO👍: {GET} /teacher/submissions/ASSIGM-102
+[04/01/2026 03:28:22] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:22] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:22] INFO👍: Teacher is requesting submissions for assignment: ASSIGM-102
+[04/01/2026 03:28:22] INFO👍: Fetching submissions for: ASSIGM-102 with populate
+[04/01/2026 03:28:22] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:28] INFO👍: {GET} /teacher/stats/averages
+[04/01/2026 03:28:28] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:28] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:28] DEBUG👍: the request return with status code: 500
+[04/01/2026 03:28:44] INFO👍: {GET} /teacher/submissions/ASSIGN-102
+[04/01/2026 03:28:44] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:44] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:44] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-102
+[04/01/2026 03:28:44] INFO👍: Fetching submissions for: ASSIGN-102 with populate
+[04/01/2026 03:28:44] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:28:56] INFO👍: {GET} /teacher/stats/averages
+[04/01/2026 03:28:56] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:28:56] DEBUG👍: the user is: undefined
+[04/01/2026 03:28:56] DEBUG👍: the request return with status code: 500
+[04/01/2026 03:29:41] INFO👍: {POST} /auth/login
+[04/01/2026 03:29:41] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:29:41] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:29:41] INFO👍: {GET} /student/assignment
+[04/01/2026 03:29:41] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:29:41] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:29:41] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:29:41] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:29:41] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:29:41] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:29:41] INFO👍: {GET} /student/assignment
+[04/01/2026 03:29:41] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:29:41] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:29:41] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:29:41] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:29:41] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:29:41] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:38:27] INFO👍: {GET} /
+[04/01/2026 03:38:27] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:39] INFO👍: {POST} /auth/login
+[04/01/2026 03:39:39] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:39] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:39:39] INFO👍: {GET} /student/assignment
+[04/01/2026 03:39:39] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:39] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:39] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:39:39] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:39] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:39] INFO👍: {GET} /student/assignment
+[04/01/2026 03:39:39] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:39] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:39] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:39:39] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:39:39] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:39] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:39] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:39:51] INFO👍: {POST} /student/submissions
+[04/01/2026 03:39:51] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:51] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:51] INFO👍: New submission added for assignment ASSIGN-102 by student 987654321
+[04/01/2026 03:39:52] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:39:52] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:52] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:52] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:39:58] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:39:58] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:39:58] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:39:58] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:40:11] INFO👍: {POST} /student/submissions
+[04/01/2026 03:40:11] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:40:11] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:40:11] INFO👍: New submission added for assignment ASSIGN-102 by student 987654321
+[04/01/2026 03:40:13] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:40:13] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:40:13] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:40:13] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:40:40] INFO👍: {POST} /auth/login
+[04/01/2026 03:40:40] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:40:40] INFO👍: User 330650052 logged in successfully with role: teacher
+[04/01/2026 03:44:07] INFO👍: {PUT} /teacher/submissions/987654321/ASSIGN-102
+[04/01/2026 03:44:07] INFO👍: Token verified for user ID: 330650052
+[04/01/2026 03:44:07] DEBUG👍: the user is: undefined
+[04/01/2026 03:44:07] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:44:07] INFO👍: Grading and feedback updated for student ID: 987654321 and assignment ID: ASSIGN-102
+[04/01/2026 03:48:38] INFO👍: {POST} /auth/login
+[04/01/2026 03:48:38] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:48:38] WARN👍: Authentication failed for user 9987765412: Invalid ID or password
+[04/01/2026 03:48:56] INFO👍: {POST} /auth/login
+[04/01/2026 03:48:56] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:48:56] INFO👍: User 987654321 logged in successfully with role: student
+[04/01/2026 03:48:56] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:48:56] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:48:56] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:48:56] INFO👍: {GET} /student/assignment
+[04/01/2026 03:48:56] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:48:56] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:48:56] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:48:56] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:48:56] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:48:56] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:48:56] INFO👍: {GET} /student/assignment
+[04/01/2026 03:48:56] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:48:56] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:48:56] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"
+[04/01/2026 03:49:05] INFO👍: {GET} /student/submissions/987654321
+[04/01/2026 03:49:05] INFO👍: Token verified for user ID: 987654321
+[04/01/2026 03:49:05] DEBUG👍: the request return with status code: 200
+[04/01/2026 03:49:05] ERROR!: Error retrieving submissions for student 987654321: CastError: Cast to ObjectId failed for value "ASSIGN-101" (type string) at path "_id" for model "Assignment"

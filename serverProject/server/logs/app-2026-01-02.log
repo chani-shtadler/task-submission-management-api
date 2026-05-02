@@ -1,0 +1,117 @@
+[02/01/2026 02:15:12] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[02/01/2026 02:15:12] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:15:12] DEBUG👍: the user is: undefined
+[02/01/2026 02:15:12] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-101
+[02/01/2026 02:15:12] INFO👍: Fetching submissions for: ASSIGN-101 with populate
+[02/01/2026 02:15:12] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:20:09] INFO👍: {PUT} /teacher/submissions/987654321/695707ee94524b2966608ccf
+[02/01/2026 02:20:09] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:20:09] DEBUG👍: the user is: undefined
+[02/01/2026 02:20:09] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:20:09] WARN👍: Submission not found for student ID: 987654321 and assignment ID: 695707ee94524b2966608ccf
+[02/01/2026 02:20:46] INFO👍: {PUT} /teacher/submissions/999888777/695707ee94524b2966608ccf
+[02/01/2026 02:20:46] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:20:46] DEBUG👍: the user is: undefined
+[02/01/2026 02:20:46] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:20:46] WARN👍: Submission not found for student ID: 999888777 and assignment ID: 695707ee94524b2966608ccf
+[02/01/2026 02:21:14] INFO👍: {PUT} /teacher/submissions/987654321/695707ee94524b2966608ccf
+[02/01/2026 02:21:14] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:21:14] DEBUG👍: the user is: undefined
+[02/01/2026 02:21:14] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:21:14] WARN👍: Submission not found for student ID: 987654321 and assignment ID: 695707ee94524b2966608ccf
+[02/01/2026 02:22:12] INFO👍: {PUT} /teacher/submissions/987654321/6956fd06463e47be3d293270
+[02/01/2026 02:22:12] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:22:12] DEBUG👍: the user is: undefined
+[02/01/2026 02:22:12] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:22:12] WARN👍: Submission not found for student ID: 987654321 and assignment ID: 6956fd06463e47be3d293270
+[02/01/2026 02:24:58] INFO👍: {PUT} /teacher/submissions/987654321/695707ee94524b2966608ccf
+[02/01/2026 02:24:58] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:24:58] DEBUG👍: the user is: undefined
+[02/01/2026 02:24:58] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:24:58] WARN👍: Submission not found for student ID: 987654321 and assignment ID: 695707ee94524b2966608ccf
+[02/01/2026 02:27:01] INFO👍: {PUT} /teacher/submissions/695707ee94524b2966608ccf/987654321
+[02/01/2026 02:27:01] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:27:01] DEBUG👍: the user is: undefined
+[02/01/2026 02:27:01] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:27:01] WARN👍: Submission not found for student ID: 695707ee94524b2966608ccf and assignment ID: 987654321
+[02/01/2026 02:28:37] INFO👍: {PUT} /teacher/submissions/987654321/ASSIGN-101
+[02/01/2026 02:28:37] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:28:37] DEBUG👍: the user is: undefined
+[02/01/2026 02:28:37] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:29:03] INFO👍: {GET} /teacher/submissions/6956fd06463e47be3d293270
+[02/01/2026 02:29:03] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:29:03] DEBUG👍: the user is: undefined
+[02/01/2026 02:29:03] INFO👍: Teacher is requesting submissions for assignment: 6956fd06463e47be3d293270
+[02/01/2026 02:29:03] INFO👍: Fetching submissions for: 6956fd06463e47be3d293270 with populate
+[02/01/2026 02:29:03] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:29:17] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[02/01/2026 02:29:17] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:29:17] DEBUG👍: the user is: undefined
+[02/01/2026 02:29:17] INFO👍: Teacher is requesting submissions for assignment: ASSIGN-101
+[02/01/2026 02:29:17] INFO👍: Fetching submissions for: ASSIGN-101 with populate
+[02/01/2026 02:29:17] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:29:30] INFO👍: {PUT} /teacher/submissions/987654321/6956fd06463e47be3d293270
+[02/01/2026 02:29:30] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:29:30] DEBUG👍: the user is: undefined
+[02/01/2026 02:29:30] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:29:30] WARN👍: Submission not found for student ID: 987654321 and assignment ID: 6956fd06463e47be3d293270
+[02/01/2026 02:29:37] INFO👍: {PUT} /teacher/submissions/987654321/ASSIGN-101
+[02/01/2026 02:29:37] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:29:37] DEBUG👍: the user is: undefined
+[02/01/2026 02:29:37] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:34:57] INFO👍: {PUT} /teacher/submissions/987654321/ASSIGN-101
+[02/01/2026 02:34:57] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:34:57] DEBUG👍: the user is: undefined
+[02/01/2026 02:34:57] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:34:57] INFO👍: Grading and feedback updated for student ID: 987654321 and assignment ID: ASSIGN-101
+[02/01/2026 02:39:52] INFO👍: {GET} /teacher/stats/averages
+[02/01/2026 02:39:52] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:39:52] DEBUG👍: the user is: undefined
+[02/01/2026 02:39:52] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:39:52] INFO👍: the average is: 95
+[02/01/2026 02:42:33] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[02/01/2026 02:42:33] WARN👍: Missing token in request
+[02/01/2026 02:42:33] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:44:23] INFO👍: {GET} /teacher/submissions/ASSIGN-101
+[02/01/2026 02:44:23] INFO👍: Token verified for user ID: 987654321
+[02/01/2026 02:44:23] DEBUG👍: the user is: undefined
+[02/01/2026 02:44:23] DEBUG👍: the request return with status code: 403
+[02/01/2026 02:46:07] INFO👍: {GET} /teacher/submissions/NO-SUCH-ID
+[02/01/2026 02:46:07] WARN👍: Missing token in request
+[02/01/2026 02:46:07] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:46:31] INFO👍: {GET} /teacher/submission/NO-SUCH-ID
+[02/01/2026 02:46:31] WARN👍: Missing token in request
+[02/01/2026 02:46:31] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:47:14] INFO👍: {GET} /teacher/submissions/987654321/123-NOT-LEGAL-ID
+[02/01/2026 02:47:14] WARN👍: Missing token in request
+[02/01/2026 02:47:14] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:47:21] INFO👍: {POST} /teacher/submissions/987654321/123-NOT-LEGAL-ID
+[02/01/2026 02:47:21] WARN👍: Missing token in request
+[02/01/2026 02:47:21] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:47:25] INFO👍: {PUT} /teacher/submissions/987654321/123-NOT-LEGAL-ID
+[02/01/2026 02:47:25] WARN👍: Missing token in request
+[02/01/2026 02:47:25] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:47:54] INFO👍: {POST} /teacher/assignments
+[02/01/2026 02:47:54] WARN👍: Missing token in request
+[02/01/2026 02:47:54] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:48:37] INFO👍: {POST} /teacher/assignments
+[02/01/2026 02:48:37] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:48:37] DEBUG👍: the user is: undefined
+[02/01/2026 02:48:37] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:48:37] ERROR!: Error: Cannot destructure property 'Id' of 'req.body' as it is undefined.
+[02/01/2026 02:49:03] INFO👍: {POST} /teacher/assignments
+[02/01/2026 02:49:03] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:49:03] DEBUG👍: the user is: undefined
+[02/01/2026 02:49:03] DEBUG👍: the request return with status code: 200
+[02/01/2026 02:49:03] ERROR!: Error: Cannot destructure property 'Id' of 'req.body' as it is undefined.
+[02/01/2026 02:50:21] INFO👍: {POST} /teacher/assignments
+[02/01/2026 02:50:21] INFO👍: Token verified for user ID: 987654321
+[02/01/2026 02:50:21] DEBUG👍: the user is: undefined
+[02/01/2026 02:50:21] DEBUG👍: the request return with status code: 403
+[02/01/2026 02:51:30] INFO👍: {POST} /teacher/submissions/average
+[02/01/2026 02:51:30] WARN👍: Missing token in request
+[02/01/2026 02:51:30] DEBUG👍: the request return with status code: 401
+[02/01/2026 02:51:44] INFO👍: {POST} /teacher/submissions/average
+[02/01/2026 02:51:44] INFO👍: Token verified for user ID: 111222333
+[02/01/2026 02:51:44] DEBUG👍: the user is: undefined
+[02/01/2026 02:51:44] DEBUG👍: the request return with status code: 200

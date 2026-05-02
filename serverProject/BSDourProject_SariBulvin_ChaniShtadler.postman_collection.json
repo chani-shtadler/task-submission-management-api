@@ -1,0 +1,567 @@
+{
+	"info": {
+		"_postman_id": "2ba2e331-ed52-407b-8251-2bec1cf95ab5",
+		"name": "BSDourProject_SariBulvin_ChaniShtadler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49592782",
+		"_collection_link": "https://chani06723-6867756.postman.co/workspace/chani06723's-Workspace~590ae659-ebc4-4e34-8fab-b292c447bd91/collection/49592782-2ba2e331-ed52-407b-8251-2bec1cf95ab5?action=share&source=collection_link&creator=49592782"
+	},
+	"item": [
+		{
+			"name": "1_registerTeacher1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"123456789\",\r\n    \"name\": \"המורה שרה\",\r\n    \"email\": \"teacher@school.com\",\r\n    \"password\": \"Password123\",\r\n    \"role\": \"teacher\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2_registerStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"987654321\",\r\n    \"name\": \"חני הסטודנטית\",\r\n    \"email\": \"chani@student.com\",\r\n    \"password\": \"Password456\",\r\n    \"role\": \"student\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3_loginTeacher",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"_id\": \"123456789\", \"password\": \"Password123\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4_createAssignmentTeacher",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "4_registerTeacher2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"111222333\",\r\n    \"name\": \"דיתי המורה\",\r\n    \"email\": \"teacher2@test.com\",\r\n    \"password\": \"Password111\",\r\n    \"role\": \"teacher\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5_loginTeacher2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"_id\": \"111222333\", \"password\": \"Password111\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6_createAssignmentTeacher",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMTEyMjIzMzMiLCJyb2xlIjoidGVhY2hlciIsImlhdCI6MTc2NzMwODQ4MiwiZXhwIjoxNzk4ODY2MDgyfQ.KJ9S4I77nDkioCxKt0UBSWlxWALJnmoiXrYkIK4h4xQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Id\": \"ASSIGN-101\",\r\n  \"title\": \"תרגיל ב-Node.js\",\r\n  \"description\": \"בניית שרת בסיסי\",\r\n  \"dueDate\": \"2026-12-31\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/teacher/assignments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"assignments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7_loginStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"987654321\",\r\n    \"password\": \"Password456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8_lookOpenAssignmentStudent",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ODc2NTQzMjEiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc2NzMxMDA2NSwiZXhwIjoxNzk4ODY3NjY1fQ.7hNbkiYhPieV_UIHWtHirTnNfnaomGPt5eDjwi2Jptg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/student/assignment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"student",
+						"assignment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10_submissionStudent",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ODc2NTQzMjEiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc2NzMxMDA2NSwiZXhwIjoxNzk4ODY3NjY1fQ.7hNbkiYhPieV_UIHWtHirTnNfnaomGPt5eDjwi2Jptg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " { \"assignmentId\": \"ASSIGN-101\", \"githubLink\": \"https://www.google.com/search?q=https://github.com/chani/project\", \"partnerId\": \"999888777\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/student/submissions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"student",
+						"submissions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9_registerStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"999888777\",\r\n    \"name\": \"חגית הסטודנטית\",\r\n    \"email\": \"chagit@student.com\",\r\n    \"password\": \"Password698\",\r\n    \"role\": \"student\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "11_getAllSubmissionsTeacher",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMTEyMjIzMzMiLCJyb2xlIjoidGVhY2hlciIsImlhdCI6MTc2NzMwODQ4MiwiZXhwIjoxNzk4ODY2MDgyfQ.KJ9S4I77nDkioCxKt0UBSWlxWALJnmoiXrYkIK4h4xQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/teacher/submissions/ASSIGN-101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"submissions",
+						"ASSIGN-101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "12_putGradeAndFeedbackTeacher",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMTEyMjIzMzMiLCJyb2xlIjoidGVhY2hlciIsImlhdCI6MTc2NzMwODQ4MiwiZXhwIjoxNzk4ODY2MDgyfQ.KJ9S4I77nDkioCxKt0UBSWlxWALJnmoiXrYkIK4h4xQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"grade\": 95, \"feedback\": \"עבודה מצוינת!\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/teacher/submissions/987654321/ASSIGN-101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"submissions",
+						"987654321",
+						"ASSIGN-101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13_getAverageTeacher",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMTEyMjIzMzMiLCJyb2xlIjoidGVhY2hlciIsImlhdCI6MTc2NzMwODQ4MiwiZXhwIjoxNzk4ODY2MDgyfQ.KJ9S4I77nDkioCxKt0UBSWlxWALJnmoiXrYkIK4h4xQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"studentId\": \"987654321\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/teacher/stats/averages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"stats",
+						"averages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "14_errorAuth",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/teacher/submissions/ASSIGN-101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"submissions",
+						"ASSIGN-101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "15_errorStudentAuth",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ODc2NTQzMjEiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc2NzMxMDA2NSwiZXhwIjoxNzk4ODY3NjY1fQ.7hNbkiYhPieV_UIHWtHirTnNfnaomGPt5eDjwi2Jptg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/teacher/submissions/ASSIGN-101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"submissions",
+						"ASSIGN-101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16_errorServer",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMTEyMjIzMzMiLCJyb2xlIjoidGVhY2hlciIsImlhdCI6MTc2NzMwODQ4MiwiZXhwIjoxNzk4ODY2MDgyfQ.KJ9S4I77nDkioCxKt0UBSWlxWALJnmoiXrYkIK4h4xQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/teacher/assignments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"assignments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "17_errorClient",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMTEyMjIzMzMiLCJyb2xlIjoidGVhY2hlciIsImlhdCI6MTc2NzMwODQ4MiwiZXhwIjoxNzk4ODY2MDgyfQ.KJ9S4I77nDkioCxKt0UBSWlxWALJnmoiXrYkIK4h4xQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/teacher/submissions/average",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"teacher",
+						"submissions",
+						"average"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
