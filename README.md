@@ -1,20 +1,28 @@
-# Task & Submission Management System
+# Task Submission Management System API
 
 ## Overview
-Backend system for managing assignments, submissions, and grading workflows.
+A backend system designed to manage assignments, submissions, and grading workflows for educational environments.
+
+The system supports role-based access for teachers and students, enabling structured submission handling and evaluation processes.
 
 ## Features
-- Role-based access control (RBAC)
-- JWT authentication
-- Workflow management
-- MongoDB database
+- Role-Based Access Control (RBAC)
+- Secure authentication using JWT
+- Assignment submission workflows
+- Grading and evaluation logic
+- MongoDB database integration
+- Logging and error handling
 
-## Technologies
+## Tech Stack
 - Node.js
 - Express
 - MongoDB
 - JWT
 
-## How to Run
-1. npm install
-2. npm start
+## Getting Started
+1. Clone the repository  
+2. Run `npm install`  
+3. Start the server using `npm start`  
+
+## Highlights
+This project demonstrates backend architecture design, authentication, and workflow management.
