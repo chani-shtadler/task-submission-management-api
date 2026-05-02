@@ -26,3 +26,4 @@ The system supports role-based access for teachers and students, enabling struct
 
 ## Highlights
 This project demonstrates backend architecture design, authentication, and workflow management.
+Tested all REST API endpoints using Postman to ensure correct functionality, authentication flow, and data validation.
